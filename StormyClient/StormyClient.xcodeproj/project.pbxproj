@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5C8FBF829CB21A1003997EA /* Stormguard_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8FBF729CB21A1003997EA /* Stormguard_clientApp.swift */; };
-		B5C8FBFA29CB21A1003997EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8FBF929CB21A1003997EA /* ContentView.swift */; };
-		B5C8FBFC29CB21A2003997EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C8FBFB29CB21A2003997EA /* Assets.xcassets */; };
-		B5C8FBFF29CB21A2003997EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C8FBFE29CB21A2003997EA /* Preview Assets.xcassets */; };
+		B5EC2ADA29CEF85F0010B005 /* StormyClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC2AD929CEF85F0010B005 /* StormyClientApp.swift */; };
+		B5EC2ADC29CEF85F0010B005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC2ADB29CEF85F0010B005 /* ContentView.swift */; };
+		B5EC2ADE29CEF8600010B005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2ADD29CEF8600010B005 /* Assets.xcassets */; };
+		B5EC2AE129CEF8600010B005 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2AE029CEF8600010B005 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B5C8FBF429CB21A1003997EA /* Stormguard-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stormguard-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5C8FBF729CB21A1003997EA /* Stormguard_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stormguard_clientApp.swift; sourceTree = "<group>"; };
-		B5C8FBF929CB21A1003997EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B5C8FBFB29CB21A2003997EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5C8FBFE29CB21A2003997EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5EC2AD629CEF85F0010B005 /* StormyClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormyClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EC2AD929CEF85F0010B005 /* StormyClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyClientApp.swift; sourceTree = "<group>"; };
+		B5EC2ADB29CEF85F0010B005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5EC2ADD29CEF8600010B005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5EC2AE029CEF8600010B005 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B5C8FBF129CB21A1003997EA /* Frameworks */ = {
+		B5EC2AD329CEF85F0010B005 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B5C8FBEB29CB21A1003997EA = {
+		B5EC2ACD29CEF85F0010B005 = {
 			isa = PBXGroup;
 			children = (
-				B5C8FBF629CB21A1003997EA /* Stormguard-client */,
-				B5C8FBF529CB21A1003997EA /* Products */,
+				B5EC2AD829CEF85F0010B005 /* StormyClient */,
+				B5EC2AD729CEF85F0010B005 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B5C8FBF529CB21A1003997EA /* Products */ = {
+		B5EC2AD729CEF85F0010B005 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5C8FBF429CB21A1003997EA /* Stormguard-client.app */,
+				B5EC2AD629CEF85F0010B005 /* StormyClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B5C8FBF629CB21A1003997EA /* Stormguard-client */ = {
+		B5EC2AD829CEF85F0010B005 /* StormyClient */ = {
 			isa = PBXGroup;
 			children = (
-				B5C8FBF729CB21A1003997EA /* Stormguard_clientApp.swift */,
-				B5C8FBF929CB21A1003997EA /* ContentView.swift */,
-				B5C8FBFB29CB21A2003997EA /* Assets.xcassets */,
-				B5C8FBFD29CB21A2003997EA /* Preview Content */,
+				B5EC2AD929CEF85F0010B005 /* StormyClientApp.swift */,
+				B5EC2ADB29CEF85F0010B005 /* ContentView.swift */,
+				B5EC2ADD29CEF8600010B005 /* Assets.xcassets */,
+				B5EC2ADF29CEF8600010B005 /* Preview Content */,
 			);
-			path = "Stormguard-client";
+			path = StormyClient;
 			sourceTree = "<group>";
 		};
-		B5C8FBFD29CB21A2003997EA /* Preview Content */ = {
+		B5EC2ADF29CEF8600010B005 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B5C8FBFE29CB21A2003997EA /* Preview Assets.xcassets */,
+				B5EC2AE029CEF8600010B005 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5C8FBF329CB21A1003997EA /* Stormguard-client */ = {
+		B5EC2AD529CEF85F0010B005 /* StormyClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5C8FC0229CB21A2003997EA /* Build configuration list for PBXNativeTarget "Stormguard-client" */;
+			buildConfigurationList = B5EC2AE429CEF8600010B005 /* Build configuration list for PBXNativeTarget "StormyClient" */;
 			buildPhases = (
-				B5C8FBF029CB21A1003997EA /* Sources */,
-				B5C8FBF129CB21A1003997EA /* Frameworks */,
-				B5C8FBF229CB21A1003997EA /* Resources */,
+				B5EC2AD229CEF85F0010B005 /* Sources */,
+				B5EC2AD329CEF85F0010B005 /* Frameworks */,
+				B5EC2AD429CEF85F0010B005 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Stormguard-client";
-			productName = "Stormguard-client";
-			productReference = B5C8FBF429CB21A1003997EA /* Stormguard-client.app */;
+			name = StormyClient;
+			productName = StormyClient;
+			productReference = B5EC2AD629CEF85F0010B005 /* StormyClient.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B5C8FBEC29CB21A1003997EA /* Project object */ = {
+		B5EC2ACE29CEF85F0010B005 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					B5C8FBF329CB21A1003997EA = {
+					B5EC2AD529CEF85F0010B005 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = B5C8FBEF29CB21A1003997EA /* Build configuration list for PBXProject "Stormguard-client" */;
+			buildConfigurationList = B5EC2AD129CEF85F0010B005 /* Build configuration list for PBXProject "StormyClient" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = B5C8FBEB29CB21A1003997EA;
-			productRefGroup = B5C8FBF529CB21A1003997EA /* Products */;
+			mainGroup = B5EC2ACD29CEF85F0010B005;
+			productRefGroup = B5EC2AD729CEF85F0010B005 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5C8FBF329CB21A1003997EA /* Stormguard-client */,
+				B5EC2AD529CEF85F0010B005 /* StormyClient */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B5C8FBF229CB21A1003997EA /* Resources */ = {
+		B5EC2AD429CEF85F0010B005 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C8FBFF29CB21A2003997EA /* Preview Assets.xcassets in Resources */,
-				B5C8FBFC29CB21A2003997EA /* Assets.xcassets in Resources */,
+				B5EC2AE129CEF8600010B005 /* Preview Assets.xcassets in Resources */,
+				B5EC2ADE29CEF8600010B005 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B5C8FBF029CB21A1003997EA /* Sources */ = {
+		B5EC2AD229CEF85F0010B005 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C8FBFA29CB21A1003997EA /* ContentView.swift in Sources */,
-				B5C8FBF829CB21A1003997EA /* Stormguard_clientApp.swift in Sources */,
+				B5EC2ADC29CEF85F0010B005 /* ContentView.swift in Sources */,
+				B5EC2ADA29CEF85F0010B005 /* StormyClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B5C8FC0029CB21A2003997EA /* Debug */ = {
+		B5EC2AE229CEF8600010B005 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		B5C8FC0129CB21A2003997EA /* Release */ = {
+		B5EC2AE329CEF8600010B005 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +259,14 @@
 			};
 			name = Release;
 		};
-		B5C8FC0329CB21A2003997EA /* Debug */ = {
+		B5EC2AE529CEF8600010B005 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Stormguard-client/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StormyClient/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fontys.Stormguard-client";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontys.StormyClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -287,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		B5C8FC0429CB21A2003997EA /* Release */ = {
+		B5EC2AE629CEF8600010B005 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Stormguard-client/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StormyClient/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fontys.Stormguard-client";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontys.StormyClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5C8FBEF29CB21A1003997EA /* Build configuration list for PBXProject "Stormguard-client" */ = {
+		B5EC2AD129CEF85F0010B005 /* Build configuration list for PBXProject "StormyClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5C8FC0029CB21A2003997EA /* Debug */,
-				B5C8FC0129CB21A2003997EA /* Release */,
+				B5EC2AE229CEF8600010B005 /* Debug */,
+				B5EC2AE329CEF8600010B005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5C8FC0229CB21A2003997EA /* Build configuration list for PBXNativeTarget "Stormguard-client" */ = {
+		B5EC2AE429CEF8600010B005 /* Build configuration list for PBXNativeTarget "StormyClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5C8FC0329CB21A2003997EA /* Debug */,
-				B5C8FC0429CB21A2003997EA /* Release */,
+				B5EC2AE529CEF8600010B005 /* Debug */,
+				B5EC2AE629CEF8600010B005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B5C8FBEC29CB21A1003997EA /* Project object */;
+	rootObject = B5EC2ACE29CEF85F0010B005 /* Project object */;
 }

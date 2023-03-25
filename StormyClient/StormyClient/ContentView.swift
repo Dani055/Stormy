@@ -1,10 +1,5 @@
 //
-//  ContentView.swift
-//  Stormguard-client
-//
-//  Created by Yordan Doykov on 22/03/2023.
-//
-
+ 
 import SwiftUI
 
 struct ContentView: View {
