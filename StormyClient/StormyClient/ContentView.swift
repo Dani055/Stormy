@@ -3,14 +3,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showOnboarding = true;
+    init() {
+       UIPageControl.appearance().currentPageIndicatorTintColor = UIColor(Color("PrimaryColor"))
+       UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
+       }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView(){
+            VStack{
+                Text("Hello world")
+            }
+        }.fullScreenCover(isPresented: $showOnboarding) {
+            OnboardingView(showOnboarding: $showOnboarding)
         }
-        .padding()
     }
 }
 
@@ -19,3 +25,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
