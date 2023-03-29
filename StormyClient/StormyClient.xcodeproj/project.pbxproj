@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B500071629D4474500F5D728 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071529D4474500F5D728 /* HomePage.swift */; };
+		B500071829D447E500F5D728 /* LocationsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071729D447E500F5D728 /* LocationsPage.swift */; };
+		B500071A29D4483A00F5D728 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071929D4483A00F5D728 /* SettingsPage.swift */; };
+		B500071C29D44FB700F5D728 /* JourneyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071B29D44FB700F5D728 /* JourneyPage.swift */; };
+		B500071E29D44FDF00F5D728 /* ChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071D29D44FDF00F5D728 /* ChatPage.swift */; };
+		B500072229D4512800F5D728 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500072129D4512800F5D728 /* NavBar.swift */; };
 		B578712229D2D2DE00B39100 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B578712129D2D2DE00B39100 /* OnboardingScreen.swift */; };
 		B5EC2ADA29CEF85F0010B005 /* StormyClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC2AD929CEF85F0010B005 /* StormyClientApp.swift */; };
 		B5EC2ADC29CEF85F0010B005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC2ADB29CEF85F0010B005 /* ContentView.swift */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B500071529D4474500F5D728 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		B500071729D447E500F5D728 /* LocationsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsPage.swift; sourceTree = "<group>"; };
+		B500071929D4483A00F5D728 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		B500071B29D44FB700F5D728 /* JourneyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyPage.swift; sourceTree = "<group>"; };
+		B500071D29D44FDF00F5D728 /* ChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPage.swift; sourceTree = "<group>"; };
+		B500072129D4512800F5D728 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 		B578712129D2D2DE00B39100 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		B5EC2AD629CEF85F0010B005 /* StormyClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormyClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EC2AD929CEF85F0010B005 /* StormyClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyClientApp.swift; sourceTree = "<group>"; };
@@ -34,6 +46,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B500071229D4471900F5D728 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				B500071529D4474500F5D728 /* HomePage.swift */,
+				B500071729D447E500F5D728 /* LocationsPage.swift */,
+				B500071929D4483A00F5D728 /* SettingsPage.swift */,
+				B500071B29D44FB700F5D728 /* JourneyPage.swift */,
+				B500071D29D44FDF00F5D728 /* ChatPage.swift */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		B500071F29D450F100F5D728 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				B500072129D4512800F5D728 /* NavBar.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		B578712029D2D2B800B39100 /* onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +93,8 @@
 		B5EC2AD829CEF85F0010B005 /* StormyClient */ = {
 			isa = PBXGroup;
 			children = (
+				B500071F29D450F100F5D728 /* components */,
+				B500071229D4471900F5D728 /* pages */,
 				B578712029D2D2B800B39100 /* onboarding */,
 				B5EC2AD929CEF85F0010B005 /* StormyClientApp.swift */,
 				B5EC2ADB29CEF85F0010B005 /* ContentView.swift */,
@@ -149,8 +183,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5EC2ADC29CEF85F0010B005 /* ContentView.swift in Sources */,
+				B500071C29D44FB700F5D728 /* JourneyPage.swift in Sources */,
+				B500072229D4512800F5D728 /* NavBar.swift in Sources */,
 				B5EC2ADA29CEF85F0010B005 /* StormyClientApp.swift in Sources */,
 				B578712229D2D2DE00B39100 /* OnboardingScreen.swift in Sources */,
+				B500071A29D4483A00F5D728 /* SettingsPage.swift in Sources */,
+				B500071829D447E500F5D728 /* LocationsPage.swift in Sources */,
+				B500071E29D44FDF00F5D728 /* ChatPage.swift in Sources */,
+				B500071629D4474500F5D728 /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct StormyClientApp: App {
+    init() {
+       UIPageControl.appearance().currentPageIndicatorTintColor = UIColor(Color("PrimaryColor"))
+       UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
