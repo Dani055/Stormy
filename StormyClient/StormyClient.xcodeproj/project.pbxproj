@@ -13,11 +13,17 @@
 		B500071C29D44FB700F5D728 /* JourneyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071B29D44FB700F5D728 /* JourneyPage.swift */; };
 		B500071E29D44FDF00F5D728 /* ChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071D29D44FDF00F5D728 /* ChatPage.swift */; };
 		B500072229D4512800F5D728 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500072129D4512800F5D728 /* NavBar.swift */; };
+		B561814729D6F38900EEC7DA /* ClickableWeatherInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561814629D6F38900EEC7DA /* ClickableWeatherInterval.swift */; };
+		B561814A29D6F66300EEC7DA /* SelectedWeatherInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561814929D6F66300EEC7DA /* SelectedWeatherInterval.swift */; };
 		B578712229D2D2DE00B39100 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B578712129D2D2DE00B39100 /* OnboardingScreen.swift */; };
 		B5EC2ADA29CEF85F0010B005 /* StormyClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC2AD929CEF85F0010B005 /* StormyClientApp.swift */; };
 		B5EC2ADC29CEF85F0010B005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC2ADB29CEF85F0010B005 /* ContentView.swift */; };
 		B5EC2ADE29CEF8600010B005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2ADD29CEF8600010B005 /* Assets.xcassets */; };
 		B5EC2AE129CEF8600010B005 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2AE029CEF8600010B005 /* Preview Assets.xcassets */; };
+		B5F2D2E829D5EB9D00877455 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F2D2E729D5EB9D00877455 /* WeatherModel.swift */; };
+		B5F2D2EB29D5EBD400877455 /* WeatherRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F2D2EA29D5EBD400877455 /* WeatherRepository.swift */; };
+		B5F2D2ED29D5EBF800877455 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F2D2EC29D5EBF800877455 /* LocationManager.swift */; };
+		B5F2D2EF29D5EC3900877455 /* SettingsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F2D2EE29D5EC3900877455 /* SettingsContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +33,18 @@
 		B500071B29D44FB700F5D728 /* JourneyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyPage.swift; sourceTree = "<group>"; };
 		B500071D29D44FDF00F5D728 /* ChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPage.swift; sourceTree = "<group>"; };
 		B500072129D4512800F5D728 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		B561814629D6F38900EEC7DA /* ClickableWeatherInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableWeatherInterval.swift; sourceTree = "<group>"; };
+		B561814929D6F66300EEC7DA /* SelectedWeatherInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedWeatherInterval.swift; sourceTree = "<group>"; };
 		B578712129D2D2DE00B39100 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		B5EC2AD629CEF85F0010B005 /* StormyClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormyClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EC2AD929CEF85F0010B005 /* StormyClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyClientApp.swift; sourceTree = "<group>"; };
 		B5EC2ADB29CEF85F0010B005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5EC2ADD29CEF8600010B005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5EC2AE029CEF8600010B005 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5F2D2E729D5EB9D00877455 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		B5F2D2EA29D5EBD400877455 /* WeatherRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRepository.swift; sourceTree = "<group>"; };
+		B5F2D2EC29D5EBF800877455 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B5F2D2EE29D5EC3900877455 /* SettingsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +73,19 @@
 		B500071F29D450F100F5D728 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				B561814829D6F39700EEC7DA /* home page */,
 				B500072129D4512800F5D728 /* NavBar.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		B561814829D6F39700EEC7DA /* home page */ = {
+			isa = PBXGroup;
+			children = (
+				B561814629D6F38900EEC7DA /* ClickableWeatherInterval.swift */,
+				B561814929D6F66300EEC7DA /* SelectedWeatherInterval.swift */,
+			);
+			path = "home page";
 			sourceTree = "<group>";
 		};
 		B578712029D2D2B800B39100 /* onboarding */ = {
@@ -93,6 +115,8 @@
 		B5EC2AD829CEF85F0010B005 /* StormyClient */ = {
 			isa = PBXGroup;
 			children = (
+				B5F2D2E929D5EBC000877455 /* repository */,
+				B5F2D2E629D5EB8F00877455 /* model */,
 				B500071F29D450F100F5D728 /* components */,
 				B500071229D4471900F5D728 /* pages */,
 				B578712029D2D2B800B39100 /* onboarding */,
@@ -100,6 +124,8 @@
 				B5EC2ADB29CEF85F0010B005 /* ContentView.swift */,
 				B5EC2ADD29CEF8600010B005 /* Assets.xcassets */,
 				B5EC2ADF29CEF8600010B005 /* Preview Content */,
+				B5F2D2EC29D5EBF800877455 /* LocationManager.swift */,
+				B5F2D2EE29D5EC3900877455 /* SettingsContainer.swift */,
 			);
 			path = StormyClient;
 			sourceTree = "<group>";
@@ -110,6 +136,22 @@
 				B5EC2AE029CEF8600010B005 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5F2D2E629D5EB8F00877455 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B5F2D2E729D5EB9D00877455 /* WeatherModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B5F2D2E929D5EBC000877455 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				B5F2D2EA29D5EBD400877455 /* WeatherRepository.swift */,
+			);
+			path = repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,12 +226,18 @@
 			files = (
 				B5EC2ADC29CEF85F0010B005 /* ContentView.swift in Sources */,
 				B500071C29D44FB700F5D728 /* JourneyPage.swift in Sources */,
+				B561814729D6F38900EEC7DA /* ClickableWeatherInterval.swift in Sources */,
 				B500072229D4512800F5D728 /* NavBar.swift in Sources */,
 				B5EC2ADA29CEF85F0010B005 /* StormyClientApp.swift in Sources */,
+				B561814A29D6F66300EEC7DA /* SelectedWeatherInterval.swift in Sources */,
+				B5F2D2E829D5EB9D00877455 /* WeatherModel.swift in Sources */,
 				B578712229D2D2DE00B39100 /* OnboardingScreen.swift in Sources */,
 				B500071A29D4483A00F5D728 /* SettingsPage.swift in Sources */,
 				B500071829D447E500F5D728 /* LocationsPage.swift in Sources */,
+				B5F2D2EF29D5EC3900877455 /* SettingsContainer.swift in Sources */,
+				B5F2D2ED29D5EBF800877455 /* LocationManager.swift in Sources */,
 				B500071E29D44FDF00F5D728 /* ChatPage.swift in Sources */,
+				B5F2D2EB29D5EBD400877455 /* WeatherRepository.swift in Sources */,
 				B500071629D4474500F5D728 /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,9 +367,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StormyClient/Preview Content\"";
+				DEVELOPMENT_TEAM = TYRX6N2F5G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Stormy;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location will be used in the app for wather syncing.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,9 +398,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StormyClient/Preview Content\"";
+				DEVELOPMENT_TEAM = TYRX6N2F5G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Stormy;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location will be used in the app for wather syncing.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
