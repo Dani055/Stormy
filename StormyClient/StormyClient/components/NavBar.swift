@@ -20,7 +20,7 @@ struct NavBar: View {
                 .tabItem {
                     Image(systemName: "map")
                 }.tag(1)
-            LocationsPage()
+            LocationsPage(selectedTab: $selectedPage)
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                 }.tag(2)
