@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51CE98C629D9DDE600B4DAE2 /* ChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CE98C529D9DDE600B4DAE2 /* ChatPage.swift */; };
 		B500071629D4474500F5D728 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071529D4474500F5D728 /* HomePage.swift */; };
 		B500071829D447E500F5D728 /* LocationsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071729D447E500F5D728 /* LocationsPage.swift */; };
 		B500071A29D4483A00F5D728 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071929D4483A00F5D728 /* SettingsPage.swift */; };
 		B500071C29D44FB700F5D728 /* JourneyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071B29D44FB700F5D728 /* JourneyPage.swift */; };
-		B500071E29D44FDF00F5D728 /* ChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071D29D44FDF00F5D728 /* ChatPage.swift */; };
+		B500071E29D44FDF00F5D728 /* StartChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071D29D44FDF00F5D728 /* StartChatPage.swift */; };
 		B500072229D4512800F5D728 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500072129D4512800F5D728 /* NavBar.swift */; };
 		B561814729D6F38900EEC7DA /* ClickableWeatherInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561814629D6F38900EEC7DA /* ClickableWeatherInterval.swift */; };
 		B561814A29D6F66300EEC7DA /* SelectedWeatherInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561814929D6F66300EEC7DA /* SelectedWeatherInterval.swift */; };
@@ -28,11 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51CE98C529D9DDE600B4DAE2 /* ChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPage.swift; sourceTree = "<group>"; };
 		B500071529D4474500F5D728 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		B500071729D447E500F5D728 /* LocationsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsPage.swift; sourceTree = "<group>"; };
 		B500071929D4483A00F5D728 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		B500071B29D44FB700F5D728 /* JourneyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyPage.swift; sourceTree = "<group>"; };
-		B500071D29D44FDF00F5D728 /* ChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPage.swift; sourceTree = "<group>"; };
+		B500071D29D44FDF00F5D728 /* StartChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartChatPage.swift; sourceTree = "<group>"; };
 		B500072129D4512800F5D728 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 		B561814629D6F38900EEC7DA /* ClickableWeatherInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableWeatherInterval.swift; sourceTree = "<group>"; };
 		B561814929D6F66300EEC7DA /* SelectedWeatherInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedWeatherInterval.swift; sourceTree = "<group>"; };
@@ -67,7 +69,8 @@
 				B500071729D447E500F5D728 /* LocationsPage.swift */,
 				B500071929D4483A00F5D728 /* SettingsPage.swift */,
 				B500071B29D44FB700F5D728 /* JourneyPage.swift */,
-				B500071D29D44FDF00F5D728 /* ChatPage.swift */,
+				B500071D29D44FDF00F5D728 /* StartChatPage.swift */,
+				51CE98C529D9DDE600B4DAE2 /* ChatPage.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -238,9 +241,10 @@
 				B578712229D2D2DE00B39100 /* OnboardingScreen.swift in Sources */,
 				B500071A29D4483A00F5D728 /* SettingsPage.swift in Sources */,
 				B500071829D447E500F5D728 /* LocationsPage.swift in Sources */,
+				51CE98C629D9DDE600B4DAE2 /* ChatPage.swift in Sources */,
 				B5F2D2EF29D5EC3900877455 /* SettingsContainer.swift in Sources */,
 				B5F2D2ED29D5EBF800877455 /* LocationManager.swift in Sources */,
-				B500071E29D44FDF00F5D728 /* ChatPage.swift in Sources */,
+				B500071E29D44FDF00F5D728 /* StartChatPage.swift in Sources */,
 				B5F2D2EB29D5EBD400877455 /* WeatherRepository.swift in Sources */,
 				B500071629D4474500F5D728 /* HomePage.swift in Sources */,
 			);
