@@ -2,7 +2,7 @@
 //  PlaceAnnotation.swift
 //  StormyClient
 //
-//  Created by Yordan Doykov on 03/04/2023.
+//  Created by Nikoleta Dimitrova on 03/04/2023.
 //
 
 import SwiftUI

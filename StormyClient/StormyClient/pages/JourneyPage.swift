@@ -50,13 +50,16 @@ struct JourneyPage: View {
                         TimespanPicker(hours: $hours, minutes: $minutes).padding([.top, .bottom])
                         
                         Button(){
-                            //                    if(hours >= 0 && minutes > 0){
-                            //                        weatherRepository.getMilimetersOfRain(hours: hours, minutes: minutes){ precipationIntensity in
-                            //                            self.precipationIntensity = precipationIntensity
-                            //                            showingSheet.toggle()
-                            //                        }
-                            //                    }
-                            self.precipationIntensity = 1.1
+//                            if(hours >= 0 && minutes > 0){
+//                                weatherRepository.getMilimetersOfRain(hours: hours, minutes: minutes){ precipationIntensity in
+//                                    self.precipationIntensity = precipationIntensity
+//                                    self.journeyRecommendation = journeyRecommendations.first{recommendation in
+//                                        recommendation.minimumPrecipation <= precipationIntensity && recommendation.maximumPrecipation >= precipationIntensity
+//                                    }
+//                                    showingSheet.toggle()
+//                                }
+//                            }
+                            self.precipationIntensity = 7
                             self.journeyRecommendation = journeyRecommendations.first{recommendation in
                                 recommendation.minimumPrecipation <= precipationIntensity && recommendation.maximumPrecipation >= precipationIntensity
                             }
