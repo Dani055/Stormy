@@ -127,11 +127,11 @@ struct HomePage: View {
                 
             }
         }.padding(EdgeInsets(top: 20, leading: 35, bottom: 15, trailing: 35)).onAppear {
-            weatherRepository.fetchWeather(units: settingsContainer.units){ intervals in
-                selectedInterval = intervals[0]
-                weatherIntervals = intervals
-                
-            }
+//            weatherRepository.fetchWeather(units: settingsContainer.units){ intervals in
+//                selectedInterval = intervals[0]
+//                weatherIntervals = intervals
+//                
+//            }
         }
         
     }

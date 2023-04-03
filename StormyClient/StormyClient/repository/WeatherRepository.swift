@@ -76,7 +76,7 @@ class WeatherRepository: NSObject,ObservableObject, CLLocationManagerDelegate {
         let arrivalDate = calendar.date(byAdding: dateComponent, to: currentDate)
         print(dateFormatter.string(from: currentDate))
         print(dateFormatter.string(from: arrivalDate!))
-        guard let url = URL(string: "https://api.tomorrow.io/v4/timelines?location=\(location.latitude),\(location.longitude)&fields=temperature&fields=precipitationType&fields=precipitationProbability&fields=precipitationIntensity&fields=weatherCode&units=metric&timesteps=15m&startTime=\(dateFormatter.string(from: currentDate))&endTime=\(dateFormatter.string(from: arrivalDate!))&apikey=\(apiKey)") else {
+        guard let url = URL(string: "https://api.tomorrow.io/v4/timelines?location=\(location.latitude),\(location.longitude)&fields=temperature&fields=windSpeed&fields=precipitationType&fields=precipitationProbability&fields=precipitationIntensity&fields=weatherCode&units=metric&timesteps=15m&startTime=\(dateFormatter.string(from: currentDate))&endTime=\(dateFormatter.string(from: arrivalDate!))&apikey=\(apiKey)") else {
             return
         }
         
