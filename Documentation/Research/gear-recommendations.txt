@@ -1,0 +1,28 @@
+0 - 0.3mmm/h
+    ◦    No equipment required
+0.3 - 1mm/h (drizzle)
+    ◦    Jacket
+    ◦    Hat
+
+1-2mm/h (light rain)
+    ◦    Umbrella
+    ◦    Jacket
+    ◦    Layered clothing 
+
+2-5mm/hour (moderate rain)
+    ◦    Layered clothing  
+    ◦    Raincoat
+    ◦    Waterproof backpack
+    ◦    Umbrella
+    ◦    Waterproof footwear
+
+5-10mm/hour (heavy rain) 
+    ◦    Layered clothing  
+    ◦    Raincoat
+    ◦    Waterproof backpack
+    ◦    Umbrella
+    ◦    Waterproof footwear
+    ◦    Extra socks
+
+10-20mm/hour (very heavy rain/storm) 
+    ◦    Not advisable to go out
