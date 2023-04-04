@@ -27,7 +27,7 @@ struct ClickableWeatherInterval: View {
         HStack(){
             VStack(){
                 if let date = dateFormatter.date(from: interval.startTime) {
-                    Text(timeFormatter.string(from: date))
+                    Text(timeFormatter.string(from: date)).padding([.leading, .trailing], 3)
                 }
                 Spacer()
                 if(Calendar.current.component(.hour, from: dateFormatter.date(from: interval.startTime)!) >= 20){

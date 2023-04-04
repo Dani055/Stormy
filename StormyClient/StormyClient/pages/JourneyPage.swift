@@ -44,32 +44,42 @@ struct JourneyPage: View {
                             }.background(Color.white.opacity(0.4)).cornerRadius(10).padding(.bottom)
                         }
                         
-                        Text("Journey duration")
-                            .font(.headline).padding(.top)
-                        
-                        TimespanPicker(hours: $hours, minutes: $minutes).padding([.top, .bottom])
-                        
-                        Button(){
-//                            if(hours >= 0 && minutes > 0){
-//                                weatherRepository.getMilimetersOfRain(hours: hours, minutes: minutes){ precipationIntensity in
-//                                    self.precipationIntensity = precipationIntensity
+                        VStack{
+                            VStack{
+                                HStack(alignment: .center){
+                                    Text("Journey duration")
+                                        .font(.headline)
+                                    Spacer()
+                                    TimespanPicker(hours: $hours, minutes: $minutes)
+                                }.padding(.bottom)
+                            
+                                Button(){
+                                    if(hours >= 0 && minutes > 0){
+                                        weatherRepository.getMilimetersOfRain(hours: hours, minutes: minutes){ precipationIntensity in
+                                            self.precipationIntensity = precipationIntensity
+                                            self.journeyRecommendation = journeyRecommendations.first{recommendation in
+                                                recommendation.minimumPrecipation <= precipationIntensity && recommendation.maximumPrecipation >= precipationIntensity
+                                            }
+                                            showingSheet.toggle()
+                                        }
+                                    }
+//                                    self.precipationIntensity = 7
 //                                    self.journeyRecommendation = journeyRecommendations.first{recommendation in
 //                                        recommendation.minimumPrecipation <= precipationIntensity && recommendation.maximumPrecipation >= precipationIntensity
 //                                    }
 //                                    showingSheet.toggle()
-//                                }
-//                            }
-                            self.precipationIntensity = 7
-                            self.journeyRecommendation = journeyRecommendations.first{recommendation in
-                                recommendation.minimumPrecipation <= precipationIntensity && recommendation.maximumPrecipation >= precipationIntensity
-                            }
-                            showingSheet.toggle()
+                                    
+                                } label: {
+                                    Text("Tell me how to prepare")
+                                }.buttonStyle(.borderedProminent).padding(.bottom, 10)
+                                
                             
-                        } label: {
-                            Text("Tell me how to prepare")
-                        }.id("prepare").buttonStyle(.borderedProminent).padding(.bottom, 30)
+                            }.padding().background(Color("Grey3")).cornerRadius(10).padding([.top, .leading, .trailing])
+                            
+                            SafeSpotsList()
+                        }
                         
-                        Spacer()
+                    
                         
                     }.navigationTitle("Plan a trip").onAppear{
                         guard let location = locationManager.manager.location?.coordinate else {
@@ -81,10 +91,10 @@ struct JourneyPage: View {
                     
                 }.onChange(of: scrollToBottom) { _ in
                     withAnimation{
-                        scrollViewProxy.scrollTo("prepare")
+                        scrollViewProxy.scrollTo("safe spots")
                     }
                 }
-                Spacer()
+                
             }
             
         }.sheet(isPresented: $showingSheet) {

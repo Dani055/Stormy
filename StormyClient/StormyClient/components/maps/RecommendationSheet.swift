@@ -27,32 +27,32 @@ struct RecommendationSheet: View {
                         Text("Highest precipation during your trip: \(String(format:"%.2f", precipationIntensity)) mm/hr").font(.title2).fontWeight(.semibold)
                         
                         
-                        VStack{
-                            VStack(alignment: .leading){
-                                HStack{
-                                    Image(journeyRecommendation!.stormyImage).resizable().aspectRatio(contentMode: .fit).frame(width: 140)
-                                    Text(journeyRecommendation!.weatherDescription).font(.title3).fontWeight(.semibold).padding(.leading, 5)
-                                }
-                                
-                                Divider()
-                                Text("Stormy reccommends:").padding(.top)
-                                ScrollView(.vertical){
-                                    VStack(alignment: .leading){
-                                        ForEach(journeyRecommendation!.gearRecommendations, id: \.gearDescription){gearRecommendation in
-                                            
-                                            HStack{
-                                                gearRecommendation.gearImage.resizable().aspectRatio(contentMode: .fit).frame(width:40)
-                                                Text(gearRecommendation.gearDescription).padding(.leading, 7)
-                                            }.padding(.top)
-                                        }
-                                    }
-                                    
-                                }
-                                
-                                
-                            }.padding()
+                        
+                        VStack(alignment: .leading){
+                            HStack{
+                                Image(journeyRecommendation!.stormyImage).resizable().aspectRatio(contentMode: .fit).frame(width: 140)
+                                Text(journeyRecommendation!.weatherDescription).font(.title3).fontWeight(.semibold).padding(.leading, 5)
+                            }
                             
-                        }.background().cornerRadius(10)
+                            Divider()
+                            Text("Stormy reccommends:").padding(.top)
+                            ScrollView(.vertical){
+                                VStack(alignment: .leading){
+                                    ForEach(journeyRecommendation!.gearRecommendations, id: \.gearDescription){gearRecommendation in
+                                        
+                                        HStack{
+                                            gearRecommendation.gearImage.resizable().aspectRatio(contentMode: .fit).frame(width:40)
+                                            Text(gearRecommendation.gearDescription).padding(.leading, 7)
+                                        }.padding(.top)
+                                    }
+                                }
+                                
+                            }
+                            
+                            
+                            
+                            
+                        }.padding().background().cornerRadius(10)
                         
                     }
                     

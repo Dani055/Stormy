@@ -14,6 +14,7 @@
 		B500071C29D44FB700F5D728 /* JourneyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071B29D44FB700F5D728 /* JourneyPage.swift */; };
 		B500071E29D44FDF00F5D728 /* StartChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500071D29D44FDF00F5D728 /* StartChatPage.swift */; };
 		B500072229D4512800F5D728 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500072129D4512800F5D728 /* NavBar.swift */; };
+		B52611B129DC037000E0F288 /* SafeSpotsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52611B029DC037000E0F288 /* SafeSpotsList.swift */; };
 		B561814729D6F38900EEC7DA /* ClickableWeatherInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561814629D6F38900EEC7DA /* ClickableWeatherInterval.swift */; };
 		B561814A29D6F66300EEC7DA /* SelectedWeatherInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561814929D6F66300EEC7DA /* SelectedWeatherInterval.swift */; };
 		B578712229D2D2DE00B39100 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B578712129D2D2DE00B39100 /* OnboardingScreen.swift */; };
@@ -40,6 +41,7 @@
 		B500071B29D44FB700F5D728 /* JourneyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyPage.swift; sourceTree = "<group>"; };
 		B500071D29D44FDF00F5D728 /* StartChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartChatPage.swift; sourceTree = "<group>"; };
 		B500072129D4512800F5D728 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		B52611B029DC037000E0F288 /* SafeSpotsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeSpotsList.swift; sourceTree = "<group>"; };
 		B561814629D6F38900EEC7DA /* ClickableWeatherInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableWeatherInterval.swift; sourceTree = "<group>"; };
 		B561814929D6F66300EEC7DA /* SelectedWeatherInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedWeatherInterval.swift; sourceTree = "<group>"; };
 		B578712129D2D2DE00B39100 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			children = (
 				B5CC5FFD29DAD65E000F8C14 /* PlaceAnnotation.swift */,
 				B5CC5FFF29DADD88000F8C14 /* RecommendationSheet.swift */,
+				B52611B029DC037000E0F288 /* SafeSpotsList.swift */,
 			);
 			path = maps;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			files = (
 				B5DF8F7229D8172800BF249B /* MyLocationModel.swift in Sources */,
 				B5EC2ADC29CEF85F0010B005 /* ContentView.swift in Sources */,
+				B52611B129DC037000E0F288 /* SafeSpotsList.swift in Sources */,
 				B500071C29D44FB700F5D728 /* JourneyPage.swift in Sources */,
 				B561814729D6F38900EEC7DA /* ClickableWeatherInterval.swift in Sources */,
 				B500072229D4512800F5D728 /* NavBar.swift in Sources */,
