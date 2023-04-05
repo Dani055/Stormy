@@ -35,13 +35,13 @@ struct RecommendationSheet: View {
                             }
                             
                             Divider()
-                            Text("Stormy reccommends:").padding(.top)
+                            Text("Stormy recommends:").padding(.top)
                             ScrollView(.vertical){
                                 VStack(alignment: .leading){
                                     ForEach(journeyRecommendation!.gearRecommendations, id: \.gearDescription){gearRecommendation in
                                         
                                         HStack{
-                                            gearRecommendation.gearImage.resizable().aspectRatio(contentMode: .fit).frame(width:40)
+                                            gearRecommendation.gearImage.resizable().aspectRatio(contentMode: .fit).frame(width:25)
                                             Text(gearRecommendation.gearDescription).padding(.leading, 7)
                                         }.padding(.top)
                                     }

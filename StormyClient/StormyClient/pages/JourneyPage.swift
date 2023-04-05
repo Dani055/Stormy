@@ -40,8 +40,8 @@ struct JourneyPage: View {
                             Button(){
                                 scrollToBottom.toggle()
                             } label: {
-                                Image(systemName: "arrow.down.to.line.compact").font(.system(size: 40)).tint(Color.gray).padding(4)
-                            }.background(Color.white.opacity(0.4)).cornerRadius(10).padding(.bottom)
+                                Image(systemName: "arrow.down").font(.system(size: 35)).tint(Color.gray).padding(4)
+                            }.background(Color.white.opacity(0.6)).cornerRadius(10).padding(.bottom)
                         }
                         
                         VStack{
@@ -70,7 +70,7 @@ struct JourneyPage: View {
 //                                    showingSheet.toggle()
                                     
                                 } label: {
-                                    Text("Tell me how to prepare")
+                                    Text("How to prepare?")
                                 }.buttonStyle(.borderedProminent).padding(.bottom, 10)
                                 
                             
