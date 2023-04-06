@@ -58,7 +58,7 @@ struct JourneyPage: View {
                                         weatherRepository.getMilimetersOfRain(hours: hours, minutes: minutes){ precipationIntensity in
                                             self.precipationIntensity = precipationIntensity
                                             self.journeyRecommendation = journeyRecommendations.first{recommendation in
-                                                recommendation.minimumPrecipation <= precipationIntensity && recommendation.maximumPrecipation >= precipationIntensity
+                                                recommendation.minimumPrecipation <= precipationIntensity && recommendation.maximumPrecipation > precipationIntensity
                                             }
                                             showingSheet.toggle()
                                         }

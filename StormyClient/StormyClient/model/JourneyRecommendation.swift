@@ -37,11 +37,11 @@ var gearInventory: [String: GearRecommendation] = [
 
 var journeyRecommendations = [
     JourneyRecommendation(minimumPrecipation: 0.0, maximumPrecipation: 0.2, weatherDescription: "No rain in sight! It is safe to go outside", stormyImage: "stormy", gearRecommendations: [gearInventory["Nothing"]!]),
-    JourneyRecommendation(minimumPrecipation: 0.3, maximumPrecipation: 1, weatherDescription: "It would appear that you might be caught in a drizzle", stormyImage: "drizzle", gearRecommendations: [gearInventory["Jacket"]!, gearInventory["Hat"]!]),
-    JourneyRecommendation(minimumPrecipation: 1.1, maximumPrecipation: 2, weatherDescription: "A light rain is expected", stormyImage: "light-rain", gearRecommendations: [gearInventory["Layered clothing"]!,gearInventory["Jacket"]!,gearInventory["Umbrella"]!]),
-    JourneyRecommendation(minimumPrecipation: 2.1, maximumPrecipation: 5, weatherDescription: "A moderate rain is expected", stormyImage: "light-rain", gearRecommendations: [gearInventory["Layered clothing"]!,gearInventory["Raincoat"]!,gearInventory["Umbrella"]!,gearInventory["Backpack"]!,gearInventory["Boots"]!]),
-    JourneyRecommendation(minimumPrecipation: 5.1, maximumPrecipation: 10, weatherDescription: "You will be caught in heavy rain", stormyImage: "heavy-rain", gearRecommendations: [gearInventory["Layered clothing"]!,gearInventory["Raincoat"]!,gearInventory["Umbrella"]!,gearInventory["Backpack"]!,gearInventory["Socks"]!,gearInventory["Boots"]!]),
-    JourneyRecommendation(minimumPrecipation: 10.1, maximumPrecipation: 1000, weatherDescription: "You will be caught in a very heavy rain/storm", stormyImage: "storm", gearRecommendations: [gearInventory["Stop"]!]),
+    JourneyRecommendation(minimumPrecipation: 0.2, maximumPrecipation: 1, weatherDescription: "It would appear that you might be caught in a drizzle", stormyImage: "drizzle", gearRecommendations: [gearInventory["Jacket"]!, gearInventory["Hat"]!]),
+    JourneyRecommendation(minimumPrecipation: 1, maximumPrecipation: 2, weatherDescription: "A light rain is expected", stormyImage: "light-rain", gearRecommendations: [gearInventory["Layered clothing"]!,gearInventory["Jacket"]!,gearInventory["Umbrella"]!]),
+    JourneyRecommendation(minimumPrecipation: 2, maximumPrecipation: 5, weatherDescription: "A moderate rain is expected", stormyImage: "light-rain", gearRecommendations: [gearInventory["Layered clothing"]!,gearInventory["Raincoat"]!,gearInventory["Umbrella"]!,gearInventory["Backpack"]!,gearInventory["Boots"]!]),
+    JourneyRecommendation(minimumPrecipation: 5, maximumPrecipation: 10, weatherDescription: "You will be caught in heavy rain", stormyImage: "heavy-rain", gearRecommendations: [gearInventory["Layered clothing"]!,gearInventory["Raincoat"]!,gearInventory["Umbrella"]!,gearInventory["Backpack"]!,gearInventory["Socks"]!,gearInventory["Boots"]!]),
+    JourneyRecommendation(minimumPrecipation: 10, maximumPrecipation: 1000, weatherDescription: "You will be caught in a very heavy rain/storm", stormyImage: "storm", gearRecommendations: [gearInventory["Stop"]!]),
 ]
 
 
