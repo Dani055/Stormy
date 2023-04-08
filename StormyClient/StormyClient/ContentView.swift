@@ -2,7 +2,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showOnboarding = false;
+    @State private var showOnboarding = true;
 
     
     var body: some View {

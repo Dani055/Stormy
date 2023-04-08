@@ -68,18 +68,20 @@ struct ChatPage: View {
     }
     
     func sendMessage() {
-        let myMessage = ChatMessages(id: UUID().uuidString, content: messageText, dateCreated: Date(), sender: .me)
-        chatMessages.append(myMessage)
-        openAIService.sendMessage(message: messageText).sink { completion in
-            //
-        } receiveValue: { response in
-            guard let textResponse = response.choices.first?.text.trimmingCharacters(in: .whitespacesAndNewlines.union(.init(charactersIn: "\""))) else { return }
-            let stormyMessage = ChatMessages(id: response.id, content: textResponse, dateCreated: Date(), sender: .stormy)
-            chatMessages.append(stormyMessage)
+        if(!messageText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty){
+            let myMessage = ChatMessages(id: UUID().uuidString, content: messageText, dateCreated: Date(), sender: .me)
+            chatMessages.append(myMessage)
+            openAIService.sendMessage(message: messageText).sink { completion in
+                //
+            } receiveValue: { response in
+                guard let textResponse = response.choices.first?.text.trimmingCharacters(in: .whitespacesAndNewlines.union(.init(charactersIn: "\""))) else { return }
+                let stormyMessage = ChatMessages(id: response.id, content: textResponse, dateCreated: Date(), sender: .stormy)
+                chatMessages.append(stormyMessage)
+            }
+            .store(in: &cancellables)
+            messageText = ""
+            print(messageText)
         }
-        .store(in: &cancellables)
-        messageText = ""
-        print(messageText)
     }
 }
 
