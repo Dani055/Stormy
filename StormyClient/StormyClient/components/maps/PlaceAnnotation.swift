@@ -42,6 +42,6 @@ struct PlaceAnnotationView: View {
 
 struct PlaceAnnotation_Previews: PreviewProvider {
     static var previews: some View {
-        PlaceAnnotationView(title: "Maikati")
+        PlaceAnnotationView(title: "You")
     }
 }

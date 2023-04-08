@@ -24,7 +24,7 @@ struct NavBar: View {
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                 }.tag(2)
-            StartChatPage()
+            ChatPage()
                 .tabItem {
                     if(selectedPage == 420){
                         Image("stormy-menu-selected")

@@ -24,7 +24,7 @@ struct RecommendationSheet: View {
                 if(journeyRecommendation != nil){
                     
                     VStack(alignment: .leading){
-                        Text("Highest precipation during your trip: \(String(format:"%.2f", precipationIntensity)) mm/hr").font(.title2).fontWeight(.semibold)
+                        Text("Highest precipitation during your trip: \(String(format:"%.2f", precipationIntensity)) mm/hr").font(.title2).fontWeight(.semibold)
                         
                         
                         
@@ -35,7 +35,7 @@ struct RecommendationSheet: View {
                             }
                             
                             Divider()
-                            Text("Stormy recommends:").padding(.top)
+                            Text("Stormy reccommends:").padding(.top)
                             ScrollView(.vertical){
                                 VStack(alignment: .leading){
                                     ForEach(journeyRecommendation!.gearRecommendations, id: \.gearDescription){gearRecommendation in
