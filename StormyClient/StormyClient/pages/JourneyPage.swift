@@ -54,7 +54,7 @@ struct JourneyPage: View {
                                 }.padding(.bottom)
                             
                                 Button(){
-                                    if(hours >= 0 && minutes > 0){
+                                    if((hours == 0 && minutes > 0) || (hours > 0)){
                                         weatherRepository.getMilimetersOfRain(hours: hours, minutes: minutes){ precipationIntensity in
                                             self.precipationIntensity = precipationIntensity
                                             self.journeyRecommendation = journeyRecommendations.first{recommendation in
