@@ -22,7 +22,7 @@ struct LocationsPage: View {
         if searchText.isEmpty {
             return myLocations
         } else {
-            return myLocations.filter { $0.city.contains(searchText) }
+            return myLocations.filter { $0.city.uppercased().contains(searchText.uppercased()) }
         }
     }
     

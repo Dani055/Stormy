@@ -9,6 +9,9 @@ import SwiftUI
 import MapKit
 
 struct JourneyPage: View {
+    var locationManager = LocationManager()
+    
+    
     @State private var searchText = ""
     @EnvironmentObject var weatherRepository: WeatherRepository
     @State private var hours: Int = 0
@@ -20,8 +23,6 @@ struct JourneyPage: View {
     @State private var precipationIntensity = 0.0
     @State private var scrollToBottom = false
     
-    var locationManager = LocationManager()
-    
     
     var body: some View {
         NavigationStack{
@@ -29,7 +30,7 @@ struct JourneyPage: View {
                 ScrollView{
                     VStack(alignment: .center) {
                         ZStack(alignment: .bottom){
-                            Map(coordinateRegion: $region,interactionModes: .all, showsUserLocation: true,  userTrackingMode: .constant(.follow), annotationItems: MapLocations){ marker in
+                            Map(coordinateRegion: $region,interactionModes: .all, showsUserLocation: true,  annotationItems: MapLocations){ marker in
                                 MapAnnotation(coordinate: marker.coordinate){
                                     PlaceAnnotationView(title: marker.name)
                                 }
@@ -82,10 +83,13 @@ struct JourneyPage: View {
                     
                         
                     }.navigationTitle("Plan a trip").onAppear{
-                        guard let location = locationManager.manager.location?.coordinate else {
-                            return
+                        Task{
+                            guard let location = locationManager.manager.location?.coordinate else {
+                                return
+                            }
+                            region = MKCoordinateRegion(center: location, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
                         }
-                        region = MKCoordinateRegion(center: location, span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
+                        
                         
                     }
                     
