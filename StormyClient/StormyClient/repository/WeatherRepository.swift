@@ -12,7 +12,7 @@ import SwiftUI
 class WeatherRepository: NSObject,ObservableObject, CLLocationManagerDelegate {
     var locationManager = LocationManager()
     private let dateFormatter = ISO8601DateFormatter()
-    private let apiKey = "D03zfff3gGduBmOfnIupZ8y2qvNYmo09"
+    private let apiKey = "YOUR API KEY HERE"
     
     
     func fetchWeather(units: String, completion: @escaping ([WeatherIntervals]) -> Void){
