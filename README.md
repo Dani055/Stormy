@@ -1,11 +1,4 @@
-# Semester 4 Duo application - iOS
-
-- Team members: Nikoleta, Yordan
-- Case 7: Rain Radar
-
-## Technologies
-- Swift
-- SwiftUI
+Stormy is a weather app for iOS devices built using native Swift and SwiftUI.
 
 ## Installation
 ### iOS Client
@@ -16,7 +9,7 @@
 - Weather forecast for the current day, including rain chance, wind and precipitation amount
 - Forecast is based on the phone's location. You can also change the forecast to show different cities
 - Settings such as changing to imperial units and notification preferences
-- Chat with Stormy, and integration of ChatGPT,s API
+- Chat with Stormy, and integration of ChatGPT's API
 
 ### Journey planner
 - Includes a map with your current location.
