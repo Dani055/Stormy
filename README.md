@@ -1,6 +1,6 @@
 Stormy is a weather app for iOS devices built using native Swift and SwiftUI.
 
-![screenshot of app](./Screenshots/home%20page.png)
+<img src="./Screenshots/home page.png" alt="screenshot of app" width="300">
 
 ## Installation
 ### iOS Client
